@@ -180,7 +180,7 @@ at::Tensor bf16i4bf16_rowwise_batched_impl(
           EpilogueTileType,
           ElementAccumulator,
           ElementAccumulator,
-          ElementC,
+          void,
           typename cutlass::layout::LayoutTranspose<LayoutC>::type,
           AlignmentC,
           ElementC,
